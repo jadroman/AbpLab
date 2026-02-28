@@ -1,0 +1,24 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/ProductManagement.Domain/ProductManagement.Domain.csproj" />
+        <Project Path="src/ProductManagement.Application/ProductManagement.Application.csproj" />
+        <Project Path="src/ProductManagement.EntityFrameworkCore/ProductManagement.EntityFrameworkCore.csproj" />
+        <Project Path="src/ProductManagement.Web/ProductManagement.Web.csproj" />
+        <Project Path="src/ProductManagement.Domain.Shared/ProductManagement.Domain.Shared.csproj" />
+        <Project Path="src/ProductManagement.Application.Contracts/ProductManagement.Application.Contracts.csproj" />
+        <Project Path="src/ProductManagement.HttpApi/ProductManagement.HttpApi.csproj" />
+        <Project Path="src/ProductManagement.HttpApi.Client/ProductManagement.HttpApi.Client.csproj" />
+        <Project Path="src/ProductManagement.DbMigrator/ProductManagement.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/ProductManagement.Application.Tests/ProductManagement.Application.Tests.csproj" />
+        <Project Path="test/ProductManagement.Web.Tests/ProductManagement.Web.Tests.csproj" />
+        <Project Path="test/ProductManagement.EntityFrameworkCore.Tests/ProductManagement.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/ProductManagement.TestBase/ProductManagement.TestBase.csproj" />
+        <Project Path="test/ProductManagement.Domain.Tests/ProductManagement.Domain.Tests.csproj" />
+        <Project Path="test/ProductManagement.HttpApi.Client.ConsoleTestApp/ProductManagement.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>
